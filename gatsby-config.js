@@ -1,16 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Node.js (TypeScript) API',
+    title: "Nico Glennon",
+    description: "I design & code things.",
+    author: `@nicoglennon`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatsby + Node.js (TypeScript) API',
-        short_name: 'Gatsby + Node.js (TypeScript)',
-        start_url: '/',
-        icon: 'src/images/gatsby-icon.png',
+        name: "Nico Glennon",
+        short_name: "Nico Glennon",
+        start_url: "/",
+        icon: "src/images/favicon.png",
       },
     },
   ],
