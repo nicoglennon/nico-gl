@@ -22,7 +22,7 @@ const LinkWrapper = styled.div`
 
 const LinkSpacing = styled.div`
   display: inline-block;
-  margin: 10px;
+  margin: 7px;
 `;
 
 const SectionWrapper = styled.div``;
@@ -34,9 +34,7 @@ const Footer = ({ page }) => {
         <SectionWrapper>
           {page !== "" && (
             <LinkWrapper>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                ←
-              </Link>
+              <Link to="/">Main</Link>
             </LinkWrapper>
           )}
         </SectionWrapper>
