@@ -9,14 +9,9 @@ const LinkWrapper = styled.div`
   font-size: 21px;
 `;
 
-const LinkSpacing = styled.div`
-  display: inline-block;
-  margin: 10px;
-`;
-
 const HeaderWrapper = styled.header`
   margin: auto;
-  margin-top: 120px;
+  margin-top: 90px;
   text-align: center;
   display: flex;
   justify-content: space-between;

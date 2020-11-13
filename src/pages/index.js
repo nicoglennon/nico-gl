@@ -7,14 +7,11 @@ const MainHeader = styled.p`
   font-size: 22px;
   font-weight: 400;
 `;
-const HiddenH1 = styled.h1`
-  display: none;
-`;
 function Index() {
   return (
     <Layout>
-      <SEO title="Home" />
-      <HiddenH1>Nico Glennon</HiddenH1>
+      <SEO />
+      <h1 style={{ display: "none" }}>Nico Glennon</h1>
       <MainHeader>
         Hi! I'm <a href="https://twitter.com/nicoglennon">Nico</a>. I design &
         code things.

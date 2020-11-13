@@ -6,6 +6,7 @@ import SEO from "../components/seo";
 function Concepts() {
   return (
     <Layout page="concepts">
+      <SEO title="Concepts" />
       <p>
         <a href="https://patrickcollison.com/advice">Advice</a>
       </p>
