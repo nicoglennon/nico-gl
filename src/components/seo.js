@@ -29,6 +29,20 @@ function SEO({ description, lang, meta, title }) {
       }}
       title={metaTitle}
       titleTemplate={title ? `${site.siteMetadata.title} — %s` : metaTitle}
+      link={[
+        {
+          rel: "preconnect",
+          href: "https://fonts.gstatic.com",
+          key: "https://fonts.gstatic.com",
+        },
+        {
+          rel: "stylesheet",
+          href:
+            "https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap",
+          key:
+            "https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap",
+        },
+      ]}
       meta={[
         {
           name: `description`,

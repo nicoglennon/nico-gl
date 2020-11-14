@@ -14,6 +14,7 @@ function Index() {
       <img
         src="https://i.pinimg.com/originals/e7/4b/87/e74b87ef8486bc21ecfdf2e036999ad2.gif"
         style={{ maxWidth: "100%" }}
+        alt="wavyyyy gif"
       />
       <p style={{ textAlign: "right" }}>©2020</p>
     </Layout>
