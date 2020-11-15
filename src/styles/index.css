@@ -435,6 +435,5 @@ footer {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  maxwidth: 550px;
   text-align: right;
 }
