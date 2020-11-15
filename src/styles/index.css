@@ -5,7 +5,6 @@ body {
   line-height: 1.5;
   font-family: "Inter", sans-serif;
   font-size: 20px;
-  line-height: 1.5;
   word-wrap: break-word;
   max-width: 500px;
   margin: 5rem auto 3rem auto;
@@ -425,4 +424,17 @@ kbd {
 }
 hr {
   border-bottom-color: #eee;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  maxwidth: 550px;
+  text-align: right;
 }

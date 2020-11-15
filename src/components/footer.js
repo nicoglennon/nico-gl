@@ -3,18 +3,6 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import { Link } from "gatsby";
 
-const FooterWrapper = styled.div`
-  position: fixed;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  padding: 20px;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  maxwidth: 550px;
-  text-align: right;
-`;
 const LinkWrapper = styled.div`
   display: inline-block;
   font-size: 21px;
@@ -30,7 +18,7 @@ const SectionWrapper = styled.div``;
 const Footer = ({ page }) => {
   return (
     <>
-      <FooterWrapper>
+      <footer>
         <SectionWrapper>
           {page !== "" && (
             <LinkWrapper>
@@ -51,7 +39,7 @@ const Footer = ({ page }) => {
             <Link to="/more">More</Link>
           </LinkWrapper>
         </SectionWrapper>
-      </FooterWrapper>
+      </footer>
     </>
   );
 };
