@@ -9,6 +9,7 @@ body {
   max-width: 500px;
   margin: 5rem auto 3rem auto;
   padding: 0 1em;
+  letter-spacing: 0px;
 }
 details {
   display: block;
