@@ -47,6 +47,14 @@ function Concepts() {
         </a>
       </p>
       <p>
+        <a
+          href="https://a16z.com/2018/02/10/crypto-readings-resources/"
+          target="_blank"
+        >
+          Crypto Canon
+        </a>
+      </p>
+      <p>
         <a href="https://tinyclouds.org/rant.html" target="_blank">
           I hate almost all software
         </a>
