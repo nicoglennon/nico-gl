@@ -38,9 +38,9 @@ function SEO({ description, lang, meta, title }) {
         {
           rel: "stylesheet",
           href:
-            "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap",
+            "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap",
           key:
-            "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap",
+            "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap",
         },
       ]}
       meta={[

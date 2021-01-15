@@ -8,19 +8,19 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
-import Header from "./header";
-import Footer from "./footer";
+import Sidebar from "./sidebar";
 import "../styles/index.css";
 import styled from "styled-components";
 
 const BodyWrapper = styled.div`
   margin: auto;
-  margin-top: 20px;
   margin-bottom: 80px;
+  display: flex;
+  position: relative;
+  overflow: none;
 `;
 
 const HtmlWrapper = styled.div`
-  max-width: 500px;
   margin: auto;
 `;
 
@@ -37,10 +37,9 @@ const Layout = ({ children, page }) => {
 
   return (
     <HtmlWrapper>
-      <Header siteTitle={data.site.siteMetadata.title} page={page} />
       <BodyWrapper>
+        <Sidebar siteTitle={data.site.siteMetadata.title} page={page} />
         <main>{children}</main>
-        <Footer page={page} />
       </BodyWrapper>
     </HtmlWrapper>
   );

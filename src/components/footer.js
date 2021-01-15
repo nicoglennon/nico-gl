@@ -4,43 +4,26 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 
 const LinkWrapper = styled.div`
-  display: inline-block;
-  font-size: 21px;
+  display: block;
+  font-size: 1rem;
 `;
-
-const LinkSpacing = styled.div`
-  display: inline-block;
-  margin: 7px;
-`;
-
-const SectionWrapper = styled.div``;
 
 const Footer = ({ page }) => {
   return (
-    <>
-      <footer>
-        <SectionWrapper>
-          {page !== "" && (
-            <LinkWrapper>
-              <Link to="/">Main</Link>
-            </LinkWrapper>
-          )}
-        </SectionWrapper>
-        <SectionWrapper>
-          <LinkWrapper>
-            <Link to="/projects">Projects</Link>
-          </LinkWrapper>
-          <LinkSpacing />
-          <LinkWrapper>
-            <Link to="/concepts">Concepts</Link>
-          </LinkWrapper>
-          <LinkSpacing />
-          <LinkWrapper>
-            <Link to="/more">More</Link>
-          </LinkWrapper>
-        </SectionWrapper>
-      </footer>
-    </>
+    <footer>
+      <LinkWrapper>
+        <Link to="/">Intro</Link>
+      </LinkWrapper>
+      <LinkWrapper>
+        <Link to="/projects">Projects</Link>
+      </LinkWrapper>
+      <LinkWrapper>
+        <Link to="/concepts">Concepts</Link>
+      </LinkWrapper>
+      <LinkWrapper>
+        <Link to="/more">More</Link>
+      </LinkWrapper>
+    </footer>
   );
 };
 
