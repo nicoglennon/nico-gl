@@ -4,33 +4,28 @@ import styled from "styled-components";
 import "../styles/index.css";
 import { Link } from "gatsby";
 
-const LinkWrapper = styled.div`
-  display: block;
-  font-size: 1rem;
-`;
-
 const SectionWrapper = styled.div``;
 
 const Sidebar = ({ siteTitle, page }) => (
   <div id="sidebar">
     <SectionWrapper>
-      <LinkWrapper>
+      <p>
         <p style={{ borderBottom: "none" }}>
           <strong>Nico Glennon</strong>
         </p>
-      </LinkWrapper>
-      <LinkWrapper>
+      </p>
+      <p>
         <Link to="/about">About</Link>
-      </LinkWrapper>
-      <LinkWrapper>
+      </p>
+      <p>
         <Link to="/projects">Projects</Link>
-      </LinkWrapper>
-      <LinkWrapper>
+      </p>
+      <p>
         <Link to="/concepts">Concepts</Link>
-      </LinkWrapper>
-      <LinkWrapper>
+      </p>
+      <p>
         <Link to="/more">More</Link>
-      </LinkWrapper>
+      </p>
       <br />
     </SectionWrapper>
   </div>
