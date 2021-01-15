@@ -451,9 +451,10 @@ main {
   main {
     padding: 20px;
     padding-top: 10px;
+    padding-left: 10px;
   }
   #sidebar {
-    padding: 40px;
+    padding: 20px;
     padding-top: 30px;
   }
 }
