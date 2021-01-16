@@ -48,7 +48,7 @@ const Sidebar = ({ siteTitle, page }) => (
         rel="noreferrer"
         style={{ borderBottom: "none" }}
       >
-        ETH: <code>0xc986c</code>
+        <code>0xc986c</code>
       </a>
     </SectionWrapper>
   </div>
