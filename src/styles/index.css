@@ -456,5 +456,6 @@ main {
   #sidebar {
     padding: 20px;
     padding-top: 30px;
+    width: 125px;
   }
 }
