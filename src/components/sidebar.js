@@ -48,7 +48,7 @@ const Sidebar = ({ siteTitle, page }) => (
         rel="noreferrer"
         style={{ borderBottom: "none" }}
       >
-        <code>0xc986ca9476edc3c021c04e3306f9e37eed9071ab</code>
+        <code>0xc986c</code>
       </a>
     </SectionWrapper>
   </div>
