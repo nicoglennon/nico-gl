@@ -17,15 +17,6 @@ function More() {
       </p>
       <p>
         <a
-          href="https://twitter.com/nicoglennon"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Twitter
-        </a>
-      </p>
-      <p>
-        <a
           href="https://github.com/nicoglennon"
           target="_blank"
           rel="noreferrer"
@@ -35,20 +26,20 @@ function More() {
       </p>
       <p>
         <a
-          href="https://www.producthunt.com/@nicoglennon"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Product Hunt
-        </a>
-      </p>
-      <p>
-        <a
           href="https://www.wyzant.com/Tutors/nico"
           target="_blank"
           rel="noreferrer"
         >
           Tutoring
+        </a>
+      </p>
+      <p>
+        <a
+          href="https://www.producthunt.com/@nicoglennon"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Product Hunt
         </a>
       </p>
     </Layout>
