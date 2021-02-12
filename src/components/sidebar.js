@@ -31,15 +31,6 @@ const Sidebar = ({ siteTitle, page }) => (
       </LinkWrapper>
       <LinkWrapper>
         <a
-          href="https://etherscan.io/address/0xc986ca9476edc3c021c04e3306f9e37eed9071ab"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Ethereum
-        </a>
-      </LinkWrapper>
-      <LinkWrapper>
-        <a
           href="https://twitter.com/nicoglennon"
           target="_blank"
           rel="noreferrer"
