@@ -7,7 +7,43 @@ function Projects() {
     <Layout page="projects">
       <SEO title="Projects" />
       <h1>Projects</h1>
-      <p>Things I've built in the past few years.</p>
+      <p>Things I've built recently.</p>
+      <h2>eth.af</h2>
+      <p>
+        <a href="https://eth.af" target="_blank" rel="noreferrer">
+          eth.af
+        </a>{" "}
+        is a fun and beautiful way to share your Ethereum wallet with friends.
+        You can also lurk on any wallet's contents using its address or ENS
+        because why not?
+      </p>
+      <p>
+        Here's{" "}
+        <a href="https://eth.af/vitalik" target="_blank" rel="noreferrer">
+          Vitalik's wallet
+        </a>{" "}
+        as an example. Since his ENS is vitalik.eth, you can view it at either{" "}
+        <a href="https://eth.af/vitalik" target="_blank" rel="noreferrer">
+          eth.af/vitalik
+        </a>{" "}
+        or{" "}
+        <a
+          href="https://eth.af/0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+          target="_blank"
+          rel="noreferrer"
+        >
+          eth.af/0xd8dA...6045
+        </a>
+        .
+      </p>
+      <h2>Someday</h2>
+      <p>
+        An iOS app made for those of us living one day at a time. Get it{" "}
+        <a href="https://someday.im" target="_blank" rel="noreferrer">
+          here
+        </a>
+        .
+      </p>
       <h2>Percent</h2>
       <p>
         <a href="https://percent.me" target="_blank" rel="noreferrer">
@@ -20,11 +56,15 @@ function Projects() {
         The idea came from a personal process I did myself for several months to
         quantify my life on a weekly basis.
       </p>
-      <h2>Someday</h2>
+      <h2>Vibes</h2>
       <p>
-        An iOS app made for those of us living one day at a time. Get it{" "}
-        <a href="https://someday.im" target="_blank" rel="noreferrer">
-          here
+        A love letter to the golden Soundcloud era (circa 2013),{" "}
+        <a href="http://vibes.af" target="_blank" rel="noreferrer">
+          Vibes
+        </a>{" "}
+        is an online radio with playlists for every vibe. Check it out at{" "}
+        <a href="http://vibes.af" target="_blank" rel="noreferrer">
+          vibes.af
         </a>
         .
       </p>
@@ -56,18 +96,7 @@ function Projects() {
         First collection is out (Classic) -- store is paused while I create a
         few more collections!
       </p>
-      <h2>Vibes</h2>
-      <p>
-        A love letter to the golden Soundcloud era (circa 2013),{" "}
-        <a href="http://vibes.af" target="_blank" rel="noreferrer">
-          Vibes
-        </a>{" "}
-        is an online radio with playlists for every vibe. Check it out at{" "}
-        <a href="http://vibes.af" target="_blank" rel="noreferrer">
-          vibes.af
-        </a>
-        .
-      </p>
+
       <h2>React Meetup</h2>
       <p>
         I ran the <strong>React.js meetup</strong> in Green Bay — you can check
