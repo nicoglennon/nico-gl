@@ -8,6 +8,28 @@ function Projects() {
       <SEO title="Projects" />
       <h1>Projects</h1>
       <p>Things I've built recently.</p>
+      <h2>$NICO</h2>
+      <p>
+        I created 1,000,000 Non-Infinite Cosmic Optimism tokens ($NICO) and have
+        a small liquidity pool pricing $NICO at about $1 USD on{" "}
+        <a href="https://uniswap.org" target="_blank" rel="noreferrer">
+          Uniswap
+        </a>
+        . I'm hoping to use these as access tokens for future projects... Long
+        live magic internet money.
+      </p>
+      <p>
+        This is not financial advice and I have no idea what I'm doing, but
+        trade $NICO{" "}
+        <a
+          href="https://app.uniswap.org/#/swap?outputCurrency=0xd4741f784dc651a5a93a1ea99ca4cb2c6aad1e9d"
+          target="_blank"
+          rel="noreferrer"
+        >
+          here
+        </a>
+        . You should only need exactly 10, so please don't drain the pool!
+      </p>
       <h2>eth.af</h2>
       <p>
         <a href="https://eth.af" target="_blank" rel="noreferrer">
