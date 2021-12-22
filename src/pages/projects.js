@@ -8,6 +8,31 @@ function Projects() {
       <SEO title="Projects" />
       <h1>Projects</h1>
       <p>Things I've built recently.</p>
+      <h2>Primer</h2>
+      <p>
+        <a href="https://primer.guide" target="_blank" rel="noreferrer">
+          Primer
+        </a>
+        is an open-source beginner's guide to crypto and web3. If you're
+        interested in learning more about crypto or know someone who is, send
+        them to
+        <a href="https://primer.guide" target="_blank" rel="noreferrer">
+          primer.guide
+        </a>
+        !
+      </p>
+      <p>
+        If you're interested in contributing or adding to it, feel free to make
+        a PR to the{" "}
+        <a
+          href="https://github.com/nicoglennon/primer"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub repo
+        </a>
+        .
+      </p>
       <h2>$NICO</h2>
       <p>
         I created 1,000,000 Non-Infinite Cosmic Optimism tokens ($NICO) and have
