@@ -15,7 +15,7 @@ const Sidebar = ({ siteTitle, page }) => (
   <div id="sidebar">
     <SectionWrapper>
       <LinkWrapper>
-        <p style={{ borderBottom: "none", marginBottom: 0 }}>
+        <p style={{ borderBottom: "none" }}>
           <strong>Nico Glennon</strong>
         </p>
       </LinkWrapper>
