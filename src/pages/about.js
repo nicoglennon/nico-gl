@@ -7,7 +7,7 @@ function About() {
     <Layout page="about">
       <SEO title="About" />
       <h1>About</h1>
-      <p>I design & program cool shit on the web.</p>
+      <p>I design & code cool shit.</p>
     </Layout>
   );
 }
