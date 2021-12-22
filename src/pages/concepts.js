@@ -9,24 +9,6 @@ function Concepts() {
       <h1>Concepts</h1>
       <p>
         <a
-          href="https://patrickcollison.com/advice"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Advice
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://a16z.com/2016/08/20/why-software-is-eating-the-world/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Why Software Is Eating the World
-        </a>
-      </p>
-      <p>
-        <a
           href="http://jlmartin.faculty.ku.edu/~jlmartin/courses/math410-S09/cantor.pdf"
           target="_blank"
           rel="noreferrer"
@@ -64,15 +46,6 @@ function Concepts() {
       </p>
       <p>
         <a
-          href="https://a16z.com/2018/02/10/crypto-readings-resources/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Crypto Canon
-        </a>
-      </p>
-      <p>
-        <a
           href="https://tinyclouds.org/rant.html"
           target="_blank"
           rel="noreferrer"
@@ -87,24 +60,6 @@ function Concepts() {
           rel="noreferrer"
         >
           Iowa Car Crop
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://en.wikipedia.org/wiki/Survivorship_bias"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Survivorship Bias
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://blog.samaltman.com/productivity"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Productivity
         </a>
       </p>
       <p>
@@ -159,15 +114,6 @@ function Concepts() {
       </p>
       <p>
         <a
-          href="https://arxiv.org/pdf/1802.07068v3.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Talent vs. Luck
-        </a>
-      </p>
-      <p>
-        <a
           href="http://dudley.harvard.edu/files/dudley/files/barth_-_lost_in_the_funhouse.pdf"
           target="_blank"
           rel="noreferrer"
@@ -200,51 +146,6 @@ function Concepts() {
           rel="noreferrer"
         >
           This is Water
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://twitter.com/naval/status/1002103360646823936"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Naval&#39;s Thread
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://en.wikipedia.org/wiki/Sunk_cost"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Sunk Cost Fallacy
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://www.physics.princeton.edu/ph115/LQ.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Last Question
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://www.youtube.com/watch?v=PHe0bXAIuk0"
-          target="_blank"
-          rel="noreferrer"
-        >
-          How The Economic Machine Works
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://nsgrantham.com/pitchfork-reviews/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Who Reviews the Pitchfork Reviewers?
         </a>
       </p>
       <p>
