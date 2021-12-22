@@ -12,10 +12,10 @@ function Projects() {
       <p>
         <a href="https://primer.guide" target="_blank" rel="noreferrer">
           Primer
-        </a>
+        </a>{" "}
         is an open-source beginner's guide to crypto and web3. If you're
         interested in learning more about crypto or know someone who is, send
-        them to
+        them to{" "}
         <a href="https://primer.guide" target="_blank" rel="noreferrer">
           primer.guide
         </a>
@@ -23,7 +23,7 @@ function Projects() {
       </p>
       <p>
         If you're interested in contributing or adding to it, feel free to make
-        a PR to the{" "}
+        a PR in the{" "}
         <a
           href="https://github.com/nicoglennon/primer"
           target="_blank"
