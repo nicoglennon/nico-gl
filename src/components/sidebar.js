@@ -18,7 +18,12 @@ const Sidebar = ({ siteTitle, page }) => (
         <p style={{ borderBottom: "none", marginBottom: 0 }}>
           <strong>Nico Glennon</strong>
         </p>
-        <p>Bit flipper</p>
+        <p>
+          Eng @{" "}
+          <a href="https://rainbow.me" target="_blank" rel="noreferrer">
+            Rainbow
+          </a>
+        </p>
       </LinkWrapper>
       {/* <LinkWrapper>
         <Link to="/about">About</Link>
