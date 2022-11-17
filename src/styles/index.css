@@ -1,7 +1,8 @@
 body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  color: #000;
+  color: rgb(245, 245, 245);
+  background-color: rgb(15, 15, 15);
   line-height: 1.7;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -20,7 +21,7 @@ summary {
 }
 a {
   background-color: transparent;
-  border-bottom: solid #24292e 1px;
+  border-bottom: solid rgba(245, 245, 245) 1px;
 }
 a:active,
 a:hover {
@@ -68,7 +69,7 @@ input {
   line-height: inherit;
 }
 a {
-  color: #24292e;
+  color: rgba(245, 245, 245);
   text-decoration: none;
 }
 a:hover {

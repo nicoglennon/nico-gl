@@ -7,7 +7,23 @@ function Projects() {
     <Layout page="projects">
       <SEO title="Projects" />
       <h1>Projects</h1>
-      <p>Things I've built recently.</p>
+      <p>Things I've worked on recently.</p>
+      <h2>Rainbowkit</h2>
+      <p>
+        <a href="https://www.rainbowkit.com" target="_blank" rel="noreferrer">
+          Rainbowkit
+        </a>{" "}
+        is an open-source React library that makes it easy to add a wallet
+        connection to your website. Find it on GitHub{" "}
+        <a
+          href="https://github.com/rainbow-me/rainbowkit"
+          target="_blank"
+          rel="noreferrer"
+        >
+          here
+        </a>{" "}
+        .
+      </p>
       <h2>Primer</h2>
       <p>
         <a href="https://primer.guide" target="_blank" rel="noreferrer">
@@ -144,7 +160,7 @@ function Projects() {
         few more collections!
       </p>
 
-      <h2>React Meetup</h2>
+      {/* <h2>React Meetup</h2>
       <p>
         I ran the <strong>React.js meetup</strong> in Green Bay — you can check
         out some of my presentations about{" "}
@@ -247,7 +263,7 @@ function Projects() {
         I love to learn different technologies by getting involved in other
         people&#39;s pet projects. If you&#39;re interested, email me at{" "}
         <strong>hi@nico.gl</strong> for more info.
-      </p>
+      </p> */}
     </Layout>
   );
 }

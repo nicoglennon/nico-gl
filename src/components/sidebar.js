@@ -38,10 +38,10 @@ const Sidebar = ({ siteTitle, page }) => (
         </a>
       </LinkWrapper>
       <LinkWrapper>
-        <Link to="/more">More</Link>
+        <Link to="/about">About</Link>
       </LinkWrapper>
       <br />
-      <p>©2021</p>
+      <p>©2022</p>
     </SectionWrapper>
   </div>
 );
