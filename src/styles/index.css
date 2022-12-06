@@ -1,10 +1,15 @@
+@font-face {
+  font-family: "Axie";
+  src: local("Axie"), url(../fonts/Menlo-Regular.woff) format("truetype");
+}
+
 body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  color: rgb(245, 245, 245);
-  background-color: rgb(15, 15, 15);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   line-height: 1.7;
-  font-family: "Inter", sans-serif;
+  font-family: Axie, sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
@@ -21,7 +26,7 @@ summary {
 }
 a {
   background-color: transparent;
-  border-bottom: solid rgba(245, 245, 245) 1px;
+  /* border-bottom: solid rgba(245, 245, 245) 1px; */
 }
 a:active,
 a:hover {
@@ -69,11 +74,13 @@ input {
   line-height: inherit;
 }
 a {
-  color: rgba(245, 245, 245);
-  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 a:hover {
   text-decoration: none;
+  background-color: white;
+  filter: invert(1);
 }
 strong {
   font-weight: 600;
@@ -81,7 +88,7 @@ strong {
 hr {
   background: 0 0;
   border: 0;
-  border-bottom: 1px solid #dfe2e5;
+  border-bottom: 1px solid #0080ff;
   height: 0;
   margin: 15px 0;
   overflow: hidden;
@@ -223,7 +230,7 @@ lite {
   color: rgb(139, 139, 139);
 }
 hr {
-  background-color: #e1e4e8;
+  background-color: rgb(50, 50, 150);
   border: 0;
   height: 0.25em;
   margin: 24px 0;
@@ -448,6 +455,10 @@ main {
   align-self: flex-start;
 }
 
+.nico-img {
+  max-width: 115px;
+}
+
 @media only screen and (max-width: 600px) {
   main {
     padding: 20px;
@@ -458,5 +469,8 @@ main {
     padding: 20px;
     padding-top: 30px;
     width: 205px;
+  }
+  .nico-img {
+    max-width: 60px;
   }
 }

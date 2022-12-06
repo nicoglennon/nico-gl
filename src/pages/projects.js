@@ -21,55 +21,8 @@ function Projects() {
           rel="noreferrer"
         >
           here
-        </a>{" "}
-        .
-      </p>
-      <h2>Primer</h2>
-      <p>
-        <a href="https://primer.guide" target="_blank" rel="noreferrer">
-          Primer
-        </a>{" "}
-        is an open-source beginner's guide to crypto and web3. If you're
-        interested in learning more about crypto or know someone who is, send
-        them to{" "}
-        <a href="https://primer.guide" target="_blank" rel="noreferrer">
-          primer.guide
-        </a>
-        !
-      </p>
-      <p>
-        If you're interested in contributing or adding to it, feel free to make
-        a PR in the{" "}
-        <a
-          href="https://github.com/nicoglennon/primer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub repo
         </a>
         .
-      </p>
-      <h2>$NICO</h2>
-      <p>
-        I created 1,000,000 Non-Infinite Cosmic Optimism tokens ($NICO) and have
-        a small liquidity pool pricing $NICO at about $1 USD on{" "}
-        <a href="https://uniswap.org" target="_blank" rel="noreferrer">
-          Uniswap
-        </a>
-        . I'm hoping to use these as access tokens for future projects... Long
-        live magic internet money.
-      </p>
-      <p>
-        This is not financial advice and I have no idea what I'm doing, but
-        trade $NICO{" "}
-        <a
-          href="https://app.uniswap.org/#/swap?outputCurrency=0xd4741f784dc651a5a93a1ea99ca4cb2c6aad1e9d"
-          target="_blank"
-          rel="noreferrer"
-        >
-          here
-        </a>
-        . You should only need exactly 10, so please don't drain the pool!
       </p>
       <h2>eth.af</h2>
       <p>
@@ -130,6 +83,53 @@ function Projects() {
           vibes.af
         </a>
         .
+      </p>
+      <h2>Primer</h2>
+      <p>
+        <a href="https://primer.guide" target="_blank" rel="noreferrer">
+          Primer
+        </a>{" "}
+        is an open-source beginner's guide to crypto and web3. If you're
+        interested in learning more about crypto or know someone who is, send
+        them to{" "}
+        <a href="https://primer.guide" target="_blank" rel="noreferrer">
+          primer.guide
+        </a>
+        !
+      </p>
+      <p>
+        If you're interested in contributing or adding to it, feel free to make
+        a PR in the{" "}
+        <a
+          href="https://github.com/nicoglennon/primer"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub repo
+        </a>
+        .
+      </p>
+      <h2>$NICO</h2>
+      <p>
+        I created 1,000,000 Non-Infinite Cosmic Optimism tokens ($NICO) and have
+        a small liquidity pool pricing $NICO at about $1 USD on{" "}
+        <a href="https://uniswap.org" target="_blank" rel="noreferrer">
+          Uniswap
+        </a>
+        . I'm hoping to use these as access tokens for future projects... Long
+        live magic internet money.
+      </p>
+      <p>
+        This is not financial advice and I have no idea what I'm doing, but
+        trade $NICO{" "}
+        <a
+          href="https://app.uniswap.org/#/swap?outputCurrency=0xd4741f784dc651a5a93a1ea99ca4cb2c6aad1e9d"
+          target="_blank"
+          rel="noreferrer"
+        >
+          here
+        </a>
+        . You should only need exactly 10, so please don't drain the pool!
       </p>
       <h2>Zero Skips</h2>
       <p>

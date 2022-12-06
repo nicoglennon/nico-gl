@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import "../styles/index.css";
 import { Link } from "gatsby";
+import nico from "../images/nico.jpg";
 
 const LinkWrapper = styled.div`
   display: block;
@@ -14,6 +15,7 @@ const SectionWrapper = styled.div``;
 const Sidebar = ({ siteTitle, page }) => (
   <div id="sidebar">
     <SectionWrapper>
+      <img src={nico} className="nico-img" />
       <LinkWrapper>
         <p style={{ borderBottom: "none" }}>
           <strong>Nico Glennon</strong>
