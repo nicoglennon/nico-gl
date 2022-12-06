@@ -482,4 +482,7 @@ main {
   .nico-img {
     max-width: 60px;
   }
+  #nico-name {
+    max-width: 82px;
+  }
 }

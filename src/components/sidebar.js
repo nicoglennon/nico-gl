@@ -17,7 +17,7 @@ const Sidebar = ({ siteTitle, page }) => (
     <SectionWrapper>
       <img src={nico} className="nico-img" />
       <LinkWrapper>
-        <p style={{ borderBottom: "none" }}>
+        <p style={{ borderBottom: "none" }} id="nico-name">
           <strong>Nico Glennon</strong>
         </p>
       </LinkWrapper>
