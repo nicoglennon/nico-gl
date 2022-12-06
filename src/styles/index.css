@@ -1,6 +1,15 @@
 @font-face {
   font-family: "Axie";
-  src: local("Axie"), url(../fonts/Menlo-Regular.woff) format("truetype");
+  src: local("Axie"), url(../fonts/MonoLisa-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Axie";
+  src: local("Axie"), url(../fonts/MonoLisa-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
@@ -127,7 +136,7 @@ h1 {
 }
 h1,
 h2 {
-  font-weight: 600;
+  font-weight: 400;
 }
 h2 {
   font-size: 1rem;

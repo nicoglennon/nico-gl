@@ -42,8 +42,6 @@ const Sidebar = ({ siteTitle, page }) => (
       <LinkWrapper>
         <Link to="/about">About</Link>
       </LinkWrapper>
-      <br />
-      <p>©2022</p>
     </SectionWrapper>
   </div>
 );
