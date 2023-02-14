@@ -15,7 +15,7 @@ const SectionWrapper = styled.div``;
 const Sidebar = ({ siteTitle, page }) => (
   <div id="sidebar">
     <SectionWrapper>
-      <img src={nico} className="nico-img" />
+      {/* <img src={nico} className="nico-img" /> */}
       <LinkWrapper>
         <p style={{ borderBottom: "none" }} id="nico-name">
           <strong>Nico Glennon</strong>

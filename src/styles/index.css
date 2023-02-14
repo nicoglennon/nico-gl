@@ -1,16 +1,4 @@
-@font-face {
-  font-family: "Axie";
-  src: local("Axie"), url(../fonts/MonoLisa-Regular.ttf) format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Axie";
-  src: local("Axie"), url(../fonts/MonoLisa-Bold.ttf) format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 
 body {
   -ms-text-size-adjust: 100%;
@@ -18,7 +6,7 @@ body {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   line-height: 1.7;
-  font-family: Axie, sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
@@ -484,5 +472,35 @@ main {
   }
   #nico-name {
     max-width: 82px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0d1117;
+    color: #fff;
+  }
+  a {
+    color: #fff;
+  }
+  a:hover {
+    text-decoration: none;
+    background-color: black;
+    filter: invert(1);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fff;
+    color: #111a23;
+  }
+  a {
+    color: #24292e;
+  }
+  a:hover {
+    text-decoration: none;
+    background-color: white;
+    filter: invert(1);
   }
 }
