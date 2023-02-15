@@ -500,6 +500,7 @@ main {
   }
   a:hover {
     text-decoration: none;
+    color: #000;
     background-color: white;
     filter: invert(1);
   }
