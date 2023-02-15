@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap");
 
 body {
   -ms-text-size-adjust: 100%;
@@ -14,6 +14,7 @@ body {
   margin: 0 auto 2rem auto;
   padding: 0;
   letter-spacing: 0px;
+  font-weight: 500;
 }
 details {
   display: block;
@@ -73,11 +74,7 @@ input {
 a {
   color: rgb(0, 0, 0);
   text-decoration: underline;
-}
-a:hover {
-  text-decoration: none;
-  background-color: white;
-  filter: invert(1);
+  text-decoration-thickness: 2px;
 }
 strong {
   font-weight: 600;
@@ -477,31 +474,20 @@ main {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #0d1117;
-    color: #fff;
+    background-color: #24292e;
+    color: #eee;
   }
   a {
-    color: #fff;
-  }
-  a:hover {
-    text-decoration: none;
-    background-color: black;
-    filter: invert(1);
+    color: #eee;
   }
 }
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #fff;
-    color: #111a23;
+    background-color: #eee;
+    color: #24292e;
   }
   a {
     color: #24292e;
-  }
-  a:hover {
-    text-decoration: none;
-    color: #000;
-    background-color: white;
-    filter: invert(1);
   }
 }
