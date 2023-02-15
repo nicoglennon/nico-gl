@@ -474,7 +474,7 @@ main {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #24292e;
+    background-color: #000;
     color: #eee;
   }
   a {
@@ -484,7 +484,7 @@ main {
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #eee;
+    background-color: #fff;
     color: #24292e;
   }
   a {
